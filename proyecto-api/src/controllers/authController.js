@@ -57,4 +57,4 @@ exports.iniciarSesion = async (req, res) => {
     } catch (error) {
         return res.status(500).json({ error: "Error interno del servidor al iniciar sesión." });
     }
-  
+    };
